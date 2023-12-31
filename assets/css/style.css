@@ -71,16 +71,17 @@ header a {
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom: 10px;
 }
 
+/* Nav-bar Styling */
 nav {
     position: absolute;
     background-color:#0A0B0D;
     left: 0;
     top: 100%;
     width: 100%;
-    padding: 0 1rem;
+    padding: ;
     display: none;
 }
 
@@ -98,4 +99,37 @@ nav {
 
 #nav-dial-label {
     font-size: 2em;
+}
+
+main {
+    flex: 1 0 auto; 
+    margin-top: 50px;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header Responsivity */
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+    
+    #menu {
+        display: flex;
+        flex-basis: auto;
+        align-items: baseline;
+    }
+
+    #menu > li {
+        padding-top: 10px;
+    }
+
+    .nav-dial-label {
+        display: none;
+    }
+
 }
