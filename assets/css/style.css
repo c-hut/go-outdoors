@@ -33,6 +33,13 @@ h2 {
     padding: 10px;
 }
 
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50%;
+    letter-spacing: 4px;
+    padding: 10px;
+}
+
 p {
     font-size: 50%;
     padding: 20px;
@@ -105,15 +112,26 @@ nav {
 
 main {
     flex: 1 0 auto; 
-    margin-top: 50px;
+    margin-top: 55px;
 }
+
+.intro-image {
+    background-color: #2C5511;
+    background: no-repeat center top/100% url("../images/pexels-ian-turnell-709552.webp");
+    color: #0A0B0D;
+    margin-top: 0px;
+    height: 400px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
 
 /* Footer Styling */
 
 footer {
     position: sticky;
     bottom: 0px;
-    box-shadow: 0px -3px 3px #2C5511; 
+    box-shadow: 0px -3px 3px #2C5511;
 }
 
 li > a {
