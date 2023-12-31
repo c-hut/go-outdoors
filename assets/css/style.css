@@ -62,7 +62,7 @@ header {
     z-index: 99;
     padding: 10px;
     background-color: #0A0B0D;
-    box-shadow: 0 3px 3px #2C5511;
+    box-shadow: 0 3px 3px #F6F7CF;
     position: fixed;
 }
 
@@ -120,18 +120,17 @@ main {
     background: no-repeat center top/100% url("../images/pexels-ian-turnell-709552.webp");
     color: #0A0B0D;
     margin-top: 0px;
-    height: 400px;
+    height: 100%;
     width: 100%;
     justify-content: flex-start;
 }
-
 
 /* Footer Styling */
 
 footer {
     position: sticky;
     bottom: 0px;
-    box-shadow: 0px -3px 3px #2C5511;
+    box-shadow: 0px -3px 3px #F6F7CF;
 }
 
 li > a {
