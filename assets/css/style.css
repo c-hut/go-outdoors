@@ -48,14 +48,15 @@ a:hover {
 
 /* Header Styling*/
 header {
-    background-color: #0A0B0D;
-    width: 100%;
-    position: fixed;
-    z-index: 99;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    z-index: 99;
     padding: 10px;
+    background-color: #0A0B0D;
+    box-shadow: 0 3px 3px #2C5511;
+    position: fixed;
 }
 
 header a {
@@ -64,7 +65,37 @@ header a {
     padding-right: 10px;
 }
 
-#nav-bar {
-    display: flex;
-    flex-wrap: nowrap;
+#menu {
+    font-size: 100%;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+nav {
+    position: absolute;
+    background-color:#0A0B0D;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    display: none;
+}
+
+#nav-icon {
+    color: #F6F7CF;
+}
+
+#nav-dial:checked~nav {
+    display: block;
+}
+
+#nav-dial {
+    display: none;
+}
+
+#nav-dial-label {
+    font-size: 2em;
 }
