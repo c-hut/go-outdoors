@@ -133,39 +133,72 @@ main {
     background-color: rgba(255,255,255,0.4);
     width: inherit;
     height: inherit;
+    padding-top: 5px;
 }
 
 .intro-text > h2 {
     font-size: 134%;
 }
 
-.intro-text > h3 {
-    font-size: 115%;
-    color: #041120;
-    text-shadow: #c0c0c0 -2px 0 10px;
-    font-family: 'Sevillana', sans-serif;
-    font-weight: 300px;
-}
-
 .intro-text > h2, h3 {
     color: #041120;
-    text-shadow: #C1B7CC -2px 0 10px;
-    z-index: 98;
+    text-shadow: #C1B7CC -2px 0 5px;
     text-align: center;
     font-weight: 900;
     padding-top: 10px;
 }
 
-/* Mission Content Styles */
-.mission-background {
-    background-color: #836E9A;
-    height: 375px;
-    width: 100%;
+.intro-text > h3 {
+    font-size: 115%;
+    color: #041120;
+    text-shadow: #c0c0c0 -2px 0 5px;
+    font-family: 'Sevillana', sans-serif;
+    font-weight: 300px;
 }
 
-.mission-text > h2, h3 {
+#intro-left-align > h2 {
+    text-align: left;
+}
+
+#intro-right-align > h2 {
+    text-align: right;
+}
+
+/* Interest Content Styles */
+.interested-background {
+    background-color: #C1B7CC;
+    background: no-repeat center center/cover url("../images/nechama-lock-dhYpO4DVEcc-unsplash.webp");
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: solid #1E1D35;
+}
+
+.interested-text > h2 {
     color: #041120;
     text-shadow: #60435D -2px 0 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+/* Here Content Styles */
+.here-background {
+    background-color: #C1B7CC;
+    background: no-repeat center center/cover url("../images/ryan-hutton-Jztmx9yqjBw-unsplash (inverted).webp");
+    height: 125px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.here-text {
+    color: #041120;
+    text-shadow: #C1B7CC -2px 0 5px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 63%;
 }
 
 /* Footer Styling */
@@ -225,37 +258,47 @@ li > a {
         font-size: 180%;
     }
 
-    #intro-left-align > h2 {
-        text-align: left;
+    .interested-background {
+        height: 80px;
     }
 
-    #intro-right-align > h2 {
-        text-align: right;
+    .interested-text > h2 {
+        font-size: 120%;
+        margin-bottom: 30px;
     }
+
 }
 
 /* Media query: laptops (992px and up) */
 @media screen and (min-width: 992px) {
 
     /* Main Content */
+
+    .background-image {
+        height: 340px;
+    }
+
     main {
         padding-top: 62px;
         margin-top: 0px;
-        font-size: 197.5%;
-    }
-
-    .intro-text h2, h3 {
-        padding-top: 20px;
-        padding-bottom: 10px;
+        font-size: 196%;
     }
 
     .intro-text > h3 {
-        font-size: 120%;
+        font-size: 115%;
         color: #041120;
         text-shadow: #c0c0c0 -2px 0 10px;
         font-family: 'Sevillana', sans-serif;
         font-weight: 300px;
-}
+    }
+
+    .here-background {
+        height: 90px;
+    }
+
+    .here-text {
+        font-size: 53%;
+    }
 
 }
 
@@ -263,15 +306,44 @@ li > a {
 @media screen and (min-width: 2560px) {
     
     /* Main Content */
+    .background-image {
+        height: 680px;
+    }
+
+    .background-overlay {
+        padding-top: 80px;
+    }
+    
     main {
         padding-top: 62px;
         margin-top: 0px;
-        font-size: 250%;
+        font-size: 300%;
     }
 
-    .intro-text h2, h3 {
-            padding-top: 20px;
-            padding-bottom: 10px;
+    .intro-text {
+        padding-top: 20px;
+    }
+
+    #intro-left-align, #intro-right-align > h2 {
+        padding: 0px 300px 9px 300px;
+    }
+
+    .interested-background {
+        padding-bottom: 300px;
+    }
+
+    .interested-text {
+        font-size: 150%;
+        padding-bottom: 100px;
+    }
+    
+    .here-background {
+        height: 450px;
+    }
+
+    .here-text {
+        font-size: 80%;
+        padding-top: 50px;
     }
 
 }
