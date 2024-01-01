@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;300&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;300&family=Sevillana&display=swap');
 
 /* Wildcard selector to ensure override of default browser styling */
 * {
@@ -27,14 +27,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 150%;
     letter-spacing: 4px;
     padding: 10px;
 }
 
 h3 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     letter-spacing: 4px;
     padding: 10px;
@@ -115,16 +115,18 @@ nav {
 /* Main Content Styling */
 
 main {
-    flex: 1 0 auto; 
+    flex: 1 0 auto;
     margin-top: 55px;
 }
+
+/* Welcome Content Styles */
 
 .background-image {
     background-color: #C1B7CC;
     background: no-repeat center center/cover url("../images/ryan-hutton-Jztmx9yqjBw-unsplash.webp");
-    margin-top: 0px;
-    height: 100vh;
+    height: 375px;
     width: 100%;
+    border-bottom: solid #1E1D35;
 }
 
 .background-overlay {
@@ -133,15 +135,40 @@ main {
     height: inherit;
 }
 
+.intro-text > h2 {
+    font-size: 134%;
+}
+
+.intro-text > h3 {
+    font-size: 115%;
+    color: #041120;
+    text-shadow: #c0c0c0 -2px 0 10px;
+    font-family: 'Sevillana', sans-serif;
+    font-weight: 300px;
+}
+
 .intro-text > h2, h3 {
     color: #041120;
-    text-shadow: #836E9A 1px 0 10px;
+    text-shadow: #C1B7CC -2px 0 10px;
     z-index: 98;
     text-align: center;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+/* Mission Content Styles */
+.mission-background {
+    background-color: #836E9A;
+    height: 375px;
+    width: 100%;
+}
+
+.mission-text > h2, h3 {
+    color: #041120;
+    text-shadow: #60435D -2px 0 10px;
 }
 
 /* Footer Styling */
-
 footer {
     position: sticky;
     bottom: 0px;
@@ -193,7 +220,59 @@ li > a {
 
     /* Main Content */
     main {
-    padding-top: 62px;
-    margin-top: 0px;
+        padding-top: 62px;
+        margin-top: 0px;
+        font-size: 180%;
+    }
+
+    #intro-left-align > h2 {
+        text-align: left;
+    }
+
+    #intro-right-align > h2 {
+        text-align: right;
+    }
 }
+
+/* Media query: laptops (992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Main Content */
+    main {
+        padding-top: 62px;
+        margin-top: 0px;
+        font-size: 197.5%;
+    }
+
+    .intro-text h2, h3 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .intro-text > h3 {
+        font-size: 120%;
+        color: #041120;
+        text-shadow: #c0c0c0 -2px 0 10px;
+        font-family: 'Sevillana', sans-serif;
+        font-weight: 300px;
 }
+
+}
+
+/* Media query: 4K laptops (2560px - max width) */
+@media screen and (min-width: 2560px) {
+    
+    /* Main Content */
+    main {
+        padding-top: 62px;
+        margin-top: 0px;
+        font-size: 250%;
+    }
+
+    .intro-text h2, h3 {
+            padding-top: 20px;
+            padding-bottom: 10px;
+    }
+
+}
+
