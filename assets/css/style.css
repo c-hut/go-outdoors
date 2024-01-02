@@ -80,7 +80,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 10px;
 }
 
@@ -130,17 +130,18 @@ main {
 }
 
 .background-overlay {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     width: inherit;
     height: inherit;
     padding-top: 5px;
 }
 
-.intro-text > h2 {
+.intro-text>h2 {
     font-size: 134%;
 }
 
-.intro-text > h2, h3 {
+.intro-text>h2,
+h3 {
     color: #041120;
     text-shadow: #C1B7CC -2px 0 5px;
     text-align: center;
@@ -148,7 +149,7 @@ main {
     padding-top: 10px;
 }
 
-.intro-text > h3 {
+.intro-text>h3 {
     font-size: 115%;
     color: #041120;
     text-shadow: #c0c0c0 -2px 0 5px;
@@ -156,11 +157,11 @@ main {
     font-weight: 300px;
 }
 
-#intro-left-align > h2 {
+#intro-left-align>h2 {
     text-align: left;
 }
 
-#intro-right-align > h2 {
+#intro-right-align>h2 {
     text-align: right;
 }
 
@@ -175,7 +176,7 @@ main {
     border-bottom: solid #1E1D35;
 }
 
-.interested-text > h2 {
+.interested-text>h2 {
     color: #041120;
     text-shadow: #60435D -2px 0 10px;
     text-align: center;
@@ -188,9 +189,16 @@ main {
 .here-background {
     background-color: #C1B7CC;
     background: no-repeat center center/cover url("../images/ryan-hutton-Jztmx9yqjBw-unsplash (inverted).webp");
-    height: 125px;
+    height: 100%
     width: 100%;
     margin-top: 0px;
+}
+
+.here-overlay {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: inherit;
+    height: inherit;
+    padding-top: 5px;
 }
 
 .here-text {
@@ -208,7 +216,7 @@ footer {
     box-shadow: 0px -3px 3px #C1B7CC;
 }
 
-li > a {
+li>a {
     color: #C1B7CC;
 }
 
@@ -224,7 +232,7 @@ li > a {
 
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (768px and above) */
 @media screen and (min-width: 768px) {
 
     /* Header Responsivity */
@@ -232,18 +240,18 @@ li > a {
     nav {
         display: block;
         position: relative;
-        box-shadow: none;
         width: fit-content;
+        box-shadow: none;
         background: none;
     }
-    
+
     #menu {
         display: flex;
         flex-basis: auto;
         align-items: baseline;
     }
 
-    #menu > li {
+    #menu>li {
         padding-top: 10px;
     }
 
@@ -255,25 +263,42 @@ li > a {
     main {
         padding-top: 62px;
         margin-top: 0px;
-        font-size: 180%;
+        font-size: 170%;
     }
 
     .interested-background {
-        height: 80px;
+        height: 70px;
     }
 
-    .interested-text > h2 {
+    .interested-text>h2 {
         font-size: 120%;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
+    }
+
+    .here-background {
+        height: 100%;
     }
 
 }
 
-/* Media query: laptops (992px and up) */
+/* Media query: laptops (992px and above) */
 @media screen and (min-width: 992px) {
 
     /* Main Content */
 
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+        background: none;
+    }
+
+    #menu {
+        display: flex;
+        flex-basis: auto;
+        align-items: baseline;
+    }
     .background-image {
         height: 340px;
     }
@@ -284,7 +309,7 @@ li > a {
         font-size: 196%;
     }
 
-    .intro-text > h3 {
+    .intro-text>h3 {
         font-size: 115%;
         color: #041120;
         text-shadow: #c0c0c0 -2px 0 10px;
@@ -293,58 +318,10 @@ li > a {
     }
 
     .here-background {
-        height: 90px;
-    }
+        height: 100%
 
-    .here-text {
-        font-size: 53%;
-    }
-
-}
-
-/* Media query: 4K laptops (2560px - max width) */
-@media screen and (min-width: 2560px) {
-    
-    /* Main Content */
-    .background-image {
-        height: 680px;
-    }
-
-    .background-overlay {
-        padding-top: 80px;
-    }
-    
-    main {
-        padding-top: 62px;
-        margin-top: 0px;
-        font-size: 300%;
-    }
-
-    .intro-text {
-        padding-top: 20px;
-    }
-
-    #intro-left-align, #intro-right-align > h2 {
-        padding: 0px 300px 9px 300px;
-    }
-
-    .interested-background {
-        padding-bottom: 300px;
-    }
-
-    .interested-text {
-        font-size: 150%;
-        padding-bottom: 100px;
-    }
-    
-    .here-background {
-        height: 450px;
-    }
-
-    .here-text {
-        font-size: 80%;
-        padding-top: 50px;
+    .here-overlay {
+        height: inherit;
     }
 
 }
-
