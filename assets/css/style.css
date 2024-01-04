@@ -220,7 +220,7 @@ nav {
 
 /* Section 3 Start */
 .dates-background {
-  background-color: #B394B0;
+  background-color: #DECFDC;
   height: fit-content;
   width: 100%;
   margin-top: 0px;
@@ -269,6 +269,10 @@ nav {
 .week {
     margin-left: 20px;
     border: solid 1px #EAE8ED;
+}
+
+.date .active {
+    font-weight: bolder;
 }
 
 .day,
@@ -349,11 +353,17 @@ li > a {
 
 /* Media query: small to medium devices (425px to 767px) */
 @media only screen and (min-width: 425px) and (max-width: 767px) {
-
+    
 }
 
 /* Media query: medium to large devices (768px and above) */
 @media only screen and (min-width: 768px) {
+
+  /* General Styling */
+  body {
+    font-size: 130%;
+  }
+
   /* Header Responsivity */
   nav {
     display: block;
@@ -376,19 +386,76 @@ li > a {
   }
 
   .intro-text {
-    padding-top: 40px;
+    margin-top: 40px;
+    padding: 0 40px 0;
+  }
+
+  .dates-text {
+    font-size: 7    0%;
   }
 
   .content-outline {
     margin: auto;
   }
 
+  .day,
+  .date {
+    padding: 1px;
+    text-align: center;
+    color: #EAE8ED;
+    font-size: 100%;
+    }
+
 }
 
-@media (max-width: 2560px) {
+/* Media query: large devices (1440px to 2559px) */
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
 
+    .intro-text {
+        padding: 0 80px 0;
+        font-size: 120%;
+    }
+    
     .day,
     .date {
         padding: 5px;
     }
+}
+
+/* Media query: large devices (2560px) */
+@media only screen and (width: 2560px) {
+    body {
+        font-size: 250%;
+    }
+
+    .intro-text {
+        margin-top: 60px;
+        padding-top: 60px;
+    }
+
+    .intro-text > h3 {
+        padding-bottom: 60px;
+    }
+
+    #intro-left-align > h2 {
+        text-align: left;
+        padding-left: 300px;
+    }
+
+    #intro-right-align > h2 {
+        text-align: right;
+        padding-right: 300px;
+    }
+
+    .dates-text > h2 {
+        padding: 50px;
+    }
+
+    .week {
+        margin-left: 460px;
+        width: fit-content;
+        padding: 30px;
+        border: solid 1px #EAE8ED;
+    }
+
 }
