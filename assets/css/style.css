@@ -220,7 +220,7 @@ nav {
 
 /* Section 3 Start */
 .dates-background {
-  background-color: #eae8ed;
+  background-color: #B394B0;
   height: fit-content;
   width: 100%;
   margin-top: 0px;
@@ -232,7 +232,7 @@ nav {
   text-align: center;
   font-size: 63%;
   font-weight: 900px;
-  padding: 10px 10px 20px;
+  padding: 10px;
 }
 
 /* Section 3 End */
@@ -249,26 +249,66 @@ nav {
   margin-top: 0px;
 }
 
-.calendar-overlay {
+.calendar-container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  padding-bottom: 0 0 30px 30px;
-}
-
-.month {
-  padding: 20px 0 0.5em 1em;
+  background-color: #60435D;
+  padding-bottom: 20px;
 }
 
 /* Calendar Start */
 .month {
   grid-column: span 7;
   text-align: center;
+  color: #EAE8ED;
+  padding: 20px 0 0.5em 1em;
+  font-size: 150%;
+  padding-right: 20px;
+}
+
+.week {
+    margin-left: 20px;
+    border: solid 1px #EAE8ED;
 }
 
 .day,
 .date {
-  padding: 1em;
+  padding: 1px;
   text-align: center;
+  color: #EAE8ED;
+  font-size: 60%;
+}
+
+.month,
+.day,
+.date {
+    color: #EAE8ED;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.calendar-container div .active {
+    padding: 5px;
+    background: no-repeat center center/cover url("../images/nechama-lock-dhYpO4DVEcc-unsplash.webp");
+    color: #041120;
+    border: solid #c1b7cc;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-shadow: #60435d -2px 0 10px;
+    margin-right: 5px;
+}
+
+.dates div .active {
+    padding: 5px;
+    background: no-repeat center center/cover url("../images/nechama-lock-dhYpO4DVEcc-unsplash.webp");
+    color: #041120;
+    border: solid #c1b7cc;
+    font-weight: 700px;
+    text-shadow: #041120 -2px 0 10px;
+}
+
+.hidden {
+    color: #60435D;
 }
 
 /* Calendar End */
@@ -303,19 +343,13 @@ li > a {
 
 /* Footer End */
 
-@media (max-width: 600px) {
-  .day,
-  .date {
-    padding: 0.5em;
-  }
-}
-
 /* Media query: small devices (375px and less) */
 @media only screen and (max-width: 375px) {
 }
 
 /* Media query: small to medium devices (425px to 767px) */
 @media only screen and (min-width: 425px) and (max-width: 767px) {
+
 }
 
 /* Media query: medium to large devices (768px and above) */
@@ -348,4 +382,13 @@ li > a {
   .content-outline {
     margin: auto;
   }
+
+}
+
+@media (max-width: 2560px) {
+
+    .day,
+    .date {
+        padding: 5px;
+    }
 }
