@@ -431,6 +431,7 @@ li > a {
     .intro-text {
         margin-top: 60px;
         padding-top: 60px;
+        font-size: 150%;
     }
 
     .intro-text > h3 {
@@ -445,6 +446,11 @@ li > a {
     #intro-right-align > h2 {
         text-align: right;
         padding-right: 300px;
+    }
+
+    .interested-background, .upcoming-background {
+        border-top: solid 8px #c1b7cc;
+        border-bottom: solid 8px #c1b7cc;
     }
 
     .dates-text > h2 {
