@@ -133,7 +133,7 @@ nav {
   margin-top: 55px;
 }
 
-/* Section 1 */
+/* Section 1 Start */
 .background-image {
   background-color: #c1b7cc;
   background: no-repeat center center/cover
@@ -144,8 +144,8 @@ nav {
 
 .background-overlay {
   background-color: rgba(255, 255, 255, 0.4);
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: fit-content;
   padding-top: 5px;
 }
 
@@ -185,7 +185,7 @@ nav {
 /* Sub-section 1-C Start */
 #intro-right-align > h2 {
   text-align: right;
-  padding: 10px;
+  padding: 10px;*/
 }
 
 /* Sub-section 1-C End */
