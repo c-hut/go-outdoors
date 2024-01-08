@@ -384,7 +384,21 @@ figcaption {
 
 /* Join Page Start */
 main {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
+    margin: 50px 0px 0;
+}
+
+#form-container {
+    background: no-repeat center center/cover url("../images/dino-reichmuth-d6yDSisNi4w-unsplash.webp");
+    flex-grow: 1;
+}
+
+#registration-form {
+    background-color: rgba(30, 29, 53, 0.8);
+    color: #C1B7CC;
+    padding: 30px;
 }
 
 /* Join Page End */
