@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* General Styling */
+/* General Styling Start */
 body {
     height: 100vh;
     display: flex;
@@ -52,7 +52,9 @@ a:hover {
     font-weight: bold;
 }
 
-/* Header Styling */
+/* General Styling End */
+
+/* Header Start */
 header {
     display: flex;
     align-items: center;
@@ -83,6 +85,8 @@ header a {
 #menu>li {
     padding: 10px 0px 10px 0;
 }
+
+/* Header End */
 
 /* Nav-bar Start */
 nav {
@@ -341,12 +345,17 @@ li>a {
 /* Home Page End */
 
 /* Gallery Page Start */
+main {
+    flex: 1 0 auto;
+}
+
 .gallery-container {
     display: flex;
     flex-direction: column;
     padding: 70px 10px 10px;
     margin: auto;
     background: #010001;
+    align-items: center;
 }
 
 figure {
@@ -358,7 +367,7 @@ figure {
 
 img {
     max-width: 100%;
-    max-height: 150%;
+    max-height: 100%;
 }
 
 figcaption {
@@ -371,8 +380,14 @@ figcaption {
     padding: 2px;
 }
 
-
 /* Gallery Page End */
+
+/* Join Page Start */
+main {
+    flex: 1 0 auto;
+}
+
+/* Join Page End */
 
 /* Media query: small devices (375px and less) */
 @media only screen and (max-width: 375px) {}
