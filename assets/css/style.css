@@ -401,6 +401,10 @@ main {
     padding: 30px;
 }
 
+form>h3 {
+    text-align: left;
+}
+
 /* Join Page End */
 
 /* Media query: small devices (375px and less) */
