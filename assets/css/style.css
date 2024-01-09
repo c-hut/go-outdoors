@@ -387,22 +387,41 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    margin: 50px 0px 0;
 }
 
 #form-container {
     background: no-repeat center center/cover url("../images/dino-reichmuth-d6yDSisNi4w-unsplash.webp");
     flex-grow: 1;
+    padding: 60px 10px 10px;
 }
 
 #registration-form {
     background-color: rgba(30, 29, 53, 0.8);
+    margin-top: 10px;
     color: #C1B7CC;
-    padding: 30px;
+    padding: 10px;
 }
 
-form>h3 {
-    text-align: left;
+form > h2{
+    padding: 10px 0;
+}
+
+h4, br {
+    padding: 20px 0;
+}
+
+.text-input {
+    width: 90%;
+    background-color: rgba(230, 219, 229, 0.2);
+    margin: 10px;
+}
+
+.text-input[type=text], .text-input[type=number] {
+    color: #010001;
+}
+
+#send-button {
+    margin: 10px;
 }
 
 /* Join Page End */
