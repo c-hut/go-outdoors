@@ -183,7 +183,6 @@ nav {
 #intro-right-align>h2 {
     text-align: right;
     padding: 10px;
-    */
 }
 
 /* Sub-section 1-C End */
@@ -427,6 +426,16 @@ form > h4 {
     font-weight: bold;
 }
 
+.checkboxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#tue, #wed, #thu, #fri, #sat, #sun {
+    margin-left: 10px;
+}
 /* Join Page End */
 
 /* Media query: medium to large devices (768px and above) */
@@ -494,6 +503,10 @@ form > h4 {
         width: 75%;
     }
 
+    #registration-form > h2, h4 {
+        margin-left: 20px;
+    }
+
     .text-input {
         width: 25%;
     }
@@ -506,12 +519,6 @@ form > h4 {
     .label {
         margin-left: 20px;
     }
-
-    form > h2, h4, {
-        margin-left: 20px;
-    }
-
-}
 
 /* Media query: large devices (1440px to 2559px) */
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
@@ -597,11 +604,11 @@ form > h4 {
 
     /* Join */
     #registration-form {
-        margin-top: 11%;
+        margin-top: 8%;
         margin-left: 30%;
         padding: 10px;
         width: 40%;
-        height: 60%;
+        height: 75%;
     }
 
     .text-input {
