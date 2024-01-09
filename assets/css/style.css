@@ -379,7 +379,6 @@ figcaption {
     text-align: center;
     padding: 2px;
 }
-
 /* Gallery Page End */
 
 /* Join Page Start */
@@ -393,6 +392,7 @@ main {
     background: no-repeat center center/cover url("../images/dino-reichmuth-d6yDSisNi4w-unsplash.webp");
     flex-grow: 1;
     padding: 60px 10px 10px;
+    align-content: center;
 }
 
 #registration-form {
@@ -406,31 +406,28 @@ form > h2{
     padding: 10px 0;
 }
 
-h4, br {
+form > h4 {
     padding: 20px 0;
 }
 
 .text-input {
     width: 90%;
     background-color: rgba(230, 219, 229, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    color: #E6DBE5;
     margin: 10px;
-}
-
-.text-input[type=text], .text-input[type=number] {
-    color: #010001;
 }
 
 #send-button {
     margin: 10px;
+    border-radius: 2px;
+    padding: 15px 30px;
+    background-color: #E6DBE5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 /* Join Page End */
-
-/* Media query: small devices (375px and less) */
-@media only screen and (max-width: 375px) {}
-
-/* Media query: small to medium devices (425px to 767px) */
-@media only screen and (min-width: 425px) and (max-width: 767px) {}
 
 /* Media query: medium to large devices (768px and above) */
 @media only screen and (min-width: 768px) {
@@ -490,6 +487,30 @@ h4, br {
         column-count: 2;
     }
 
+    /* Join */
+    #registration-form {
+        margin-top: 5%;
+        margin-left: 12%;
+        width: 75%;
+    }
+
+    .text-input {
+        width: 25%;
+    }
+
+    #send-button {
+        margin-top: 10px;
+        border-radius: 2px;
+    }
+
+    .label {
+        margin-left: 20px;
+    }
+
+    form > h2, h4, {
+        margin-left: 20px;
+    }
+
 }
 
 /* Media query: large devices (1440px to 2559px) */
@@ -503,6 +524,31 @@ h4, br {
     .day,
     .date {
         padding: 5px;
+    }
+
+    /* Join */
+    #registration-form {
+        margin-top: 8%;
+        margin-left: 30%;
+        padding: 10px;
+        width: 40%;
+    }
+
+    .text-input {
+        width: 30%;
+    }
+
+    #send-button {
+        margin-top: 10px;
+        border-radius: 2px;
+    }
+
+    .label {
+        margin-left: 20px;
+    }
+
+    form > h2, h4, {
+        margin-left: 20px;
     }
 }
 
@@ -547,6 +593,35 @@ h4, br {
         width: fit-content;
         padding: 30px;
         border: solid 1px #EAE8ED;
+    }
+
+    /* Join */
+    #registration-form {
+        margin-top: 11%;
+        margin-left: 30%;
+        padding: 10px;
+        width: 40%;
+        height: 60%;
+    }
+
+    .text-input {
+        width: 30%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .label {
+        margin-left: 30px;
+    }
+
+    form > h2, h4 {
+        margin-left: 20px;
+    }
+
+    #send-button {
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 30px;
     }
 
 }
