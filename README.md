@@ -14,7 +14,7 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
 
 - Responsive Navigation Bar (designed using HTML and CSS **only**)
     - Its purpose is to enable users to navigate between pages without having to use the back and forward arrow buttons in their browser of choice.
-    - It comprises the Logo and links to the Home, Gallery and Registration pages, as well as their accompanying Favicon Icons.
+    - It comprises the Logo and links to the Home, Gallery and Registration pages, as well as their accompanying Font Awesome (FA) Icons.
     - On each page, the navigation bar remains visible and fully accessible to users. It has been designed in such a way that its page links are tucked away on small devices and become untucked on large devices.
 
     #### Large Header
@@ -24,4 +24,8 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     ![Header screenshot (large)](assets/images/header-small.png)
 
 - Landing Page
-    - 
+    - Upon arrival, users are met with a starry night sky which has been overlayed with a sheen of Lavender Blush. The opening message - written in Montserrat - welcomes them, and a promise of magic - written in Sevillana - greets them just below. A magic wand FA Icon has also been added for aesthetic effect.
+
+    ![Welcome message (large)](assets/images/welcome-message.png)
+
+    - Scrolling further down the page, 
