@@ -17,15 +17,19 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     - It comprises the Logo and links to the Home, Gallery and Registration pages, as well as their accompanying Font Awesome (FA) Icons.
     - On each page, the navigation bar remains visible and fully accessible to users. It has been designed in such a way that its page links are tucked away on small devices and become untucked on large devices.
 
-    #### Large Header
-    ![Header screenshot (large)](assets/images/header-large.png)
-
-    #### Small Header
+    ##### Small Header
     ![Header screenshot (large)](assets/images/header-small.png)
+    
+    ##### Large Header
+    ![Header screenshot (large)](assets/images/header-large.png)
 
 - Landing Page
     - Upon arrival, users are met with a starry night sky which has been overlayed with a sheen of Lavender Blush. The opening message - written in Montserrat - welcomes them, and a promise of magic - written in Sevillana - greets them just below. A magic wand FA Icon has also been added for aesthetic effect.
 
-    ![Welcome message (large)](assets/images/welcome-message.png)
+    ##### Small Version
+    ![Welcome message (large)](assets/images/welcome-message-small.png)
+    
+    ##### Large Version
+    ![Welcome message (large)](assets/images/welcome-message-large.png)
 
     - Scrolling further down the page, 
