@@ -273,7 +273,7 @@ nav {
     padding: 1px;
     text-align: center;
     color: #EAE8ED;
-    font-size: 60%;
+    font-size: 100%;
 }
 
 .month,
@@ -291,7 +291,7 @@ nav {
     border: solid #c1b7cc;
     font-weight: 700px;
     text-transform: uppercase;
-    text-shadow: #60435d -2px 0 10px;
+    text-shadow: #010001 -2px 0 10px;
     margin-right: 5px;
 }
 
