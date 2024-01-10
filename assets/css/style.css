@@ -147,12 +147,12 @@ nav {
 }
 
 .intro-text {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 /* Sub-section 1-A Start */
 .intro-text>h2 {
-    font-size: 134%;
+    font-size: 160%;
     color: #041120;
     text-shadow: #c1b7cc -2px 0 5px;
     text-align: center;
@@ -160,7 +160,7 @@ nav {
 }
 
 .intro-text>h3 {
-    font-size: 115%;
+    font-size: 130%;
     color: #041120;
     text-shadow: #c0c0c0 -2px 0 5px;
     font-family: "Sevillana", sans-serif;
@@ -207,8 +207,7 @@ nav {
     color: #041120;
     text-shadow: #60435d -2px 0 10px;
     text-align: center;
-    font-weight: 900;
-    padding: 10px 0 10px 0;
+    padding: 10px;
     text-transform: uppercase;
 }
 
@@ -586,7 +585,7 @@ form > h5 {
     .intro-text {
         margin-top: 60px;
         padding-top: 60px;
-        font-size: 150%;
+        font-size: 130%;
     }
 
     .intro-text>h3 {
