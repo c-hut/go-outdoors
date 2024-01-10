@@ -535,6 +535,8 @@ form > h5 {
 /* Media query: large devices (1440px to 2559px) */
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
 
+    /* Home page*/
+   
     .intro-text {
         padding: 0 80px 0;
         font-size: 120%;
@@ -545,9 +547,14 @@ form > h5 {
         padding: 5px;
     }
 
+    .calendar-container {
+        padding-left: 180px;
+    }
+
+
     /* Join */
     #registration-form {
-        margin-top: 2.5%;
+        margin-top: 3.5%;
         margin-left: 30%;
         padding: 10px;
         width: 40%;
@@ -608,6 +615,13 @@ form > h5 {
 
     .dates-text>h2 {
         padding: 50px;
+    }
+
+    /* Calendar */
+
+    .calendar-container {
+        font-size: 110%;
+        padding: 40px;
     }
 
     .week {
