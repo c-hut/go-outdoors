@@ -79,4 +79,30 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     ##### Large Version
     ![Registration Form (large)](assets/images/form-large.png)
 
+### Prospective Features (TBD)
+
+- A virtual walkthrough of the retreat. Users will be able to look around the retreat from the perspective of somebody who is there in person.
+- A personality questionnaire. Users can optionally answer a series of questions in order to better understand them as individuals prior to engaging with them via their elected form of contact.
+
+## Development
+
+During development, a series of unfamiliar and often unexpected behaviours were observed. From flexbox positioning issues to a complete absence of navigation bar responsiveness to a footer that just wouldn't stay down, a solution was found for each and every problem.
+
+### Flexbox Fumble
+
+First and foremost, I think it's important to note that CSS can be very tricky - especially for novices. Flexbox, in particular, was very challenging. It's fairly straight-forward on its own, but the nature of its impact on surrounding elements alluded me initially. Over time, however, I began to understand the relationships between elements and their counterparts, and I was able to address the issues I'd been facing. For example, I learned when it was appropriate to apply flexbox properties and was eventually able to identify when they were redundant.
+
+### Navigation Bar Nightmare
+
+Designing a responsive navigation bar without the use of Javascript proved difficult - even with Code Institute's tutorial. In the beginning, I wanted to find my own solution but decided against it due to my own lack of experience. I attempted to follow this [tutorial](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) and couldn't adapt it to my needs, so I abandoned it and reverted to what I knew. In the end, I was able to add the expected functionalities and styled it in accordance with my design preferences.
+
+### Flying Footer
+
+At one point, I thought a sticky footer would be a good idea; I wanted it to remain visible on the screen at all times. I encountered issues whenever I defined its position. when I set it to `sticky`, it had absolutely no effect; when I set its propety to `absolute`, it reduced to a quarter of its specified width; and when I set it to `fixed`, it disappeared entirely. In the end, I set `margin-top` to `auto` and settled on a footer that finally stayed put.
+
+## Testing
+
+
+
+
 
