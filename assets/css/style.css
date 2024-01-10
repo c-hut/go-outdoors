@@ -174,7 +174,6 @@ nav {
 /* Sub-section 1-B Start */
 #intro-left-align>h2 {
     text-align: left;
-    padding: 10px;
 }
 
 /* Sub-section 1-B End */
@@ -182,7 +181,6 @@ nav {
 /* Sub-section 1-C Start */
 #intro-right-align>h2 {
     text-align: right;
-    padding: 10px;
 }
 
 /* Sub-section 1-C End */
