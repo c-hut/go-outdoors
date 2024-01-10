@@ -51,7 +51,6 @@ a {
 a:hover {
     font-weight: bold;
 }
-
 /* General Styling End */
 
 /* Header Start */
@@ -85,7 +84,6 @@ header a {
 #menu>li {
     padding: 10px 0px 10px 0;
 }
-
 /* Header End */
 
 /* Nav-bar Start */
@@ -117,10 +115,9 @@ nav {
 #nav-dial-label {
     font-size: 2em;
 }
-
 /* Nav-bar End */
 
-/* Home Page (index.html Start)
+/* Home Page (index.html) Start */
 
 /* Main Content Start */
 #main {
@@ -168,21 +165,18 @@ nav {
     text-align: center;
     padding: 10px;
 }
-
 /* Sub-section 1-A End */
 
 /* Sub-section 1-B Start */
 #intro-left-align>h2 {
     text-align: left;
 }
-
 /* Sub-section 1-B End */
 
 /* Sub-section 1-C Start */
 #intro-right-align>h2 {
     text-align: right;
 }
-
 /* Sub-section 1-C End */
 
 /* Section 1 End */
@@ -208,7 +202,6 @@ nav {
     padding: 10px;
     text-transform: uppercase;
 }
-
 /* Section 2 End */
 
 /* Section 3 Start */
@@ -227,7 +220,6 @@ nav {
     font-weight: 900px;
     padding: 10px;
 }
-
 /* Section 3 End */
 
 /* Section 4 Start */
@@ -307,12 +299,13 @@ nav {
 .hidden {
     color: #60435D;
 }
-
 /* Calendar End */
 
 /* Section 5 End */
 
 /* Main Content End */
+
+/* Home Page End */
 
 /* Footer Start */
 footer {
@@ -335,16 +328,9 @@ li>a {
             rgba(9, 11, 9, 1) 19%,
             rgba(30, 29, 53, 1) 66%);
 }
-
 /* Footer End */
 
-/* Home Page End */
-
 /* Gallery Page Start */
-main {
-    flex: 1 0 auto;
-}
-
 .gallery-container {
     display: flex;
     flex-direction: column;
@@ -381,7 +367,6 @@ figcaption {
 main {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
 }
 
 #form-container {
@@ -445,6 +430,14 @@ form > h5 {
 }
 /* Join Page End */
 
+/* Media query: medium to large devices (390px and above) */
+@media only screen and (min-width: 390px) {
+
+    /* Join */
+    #send-button {
+        margin: 2% 0 2% 37%;
+}
+
 /* Media query: medium to large devices (768px and above) */
 @media only screen and (min-width: 768px) {
 
@@ -474,6 +467,7 @@ form > h5 {
         padding-top: 10px;
     }
 
+    /* Home page */
     .intro-text {
         margin-top: 40px;
         padding: 0 40px 0;
@@ -487,6 +481,7 @@ form > h5 {
         margin: auto;
     }
 
+    /* Calendar */
     .day,
     .date {
         padding: 1px;
@@ -536,12 +531,12 @@ form > h5 {
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
 
     /* Home page*/
-   
     .intro-text {
         padding: 0 80px 0;
         font-size: 120%;
     }
 
+    /* Calendar */
     .day,
     .date {
         padding: 5px;
@@ -582,11 +577,12 @@ form > h5 {
 
 /* Media query: large devices (2560px) */
 @media only screen and (width: 2560px) {
+
     body {
         font-size: 250%;
     }
 
-    /* Homepage */
+    /* Home page */
     .intro-text {
         margin-top: 60px;
         padding-top: 60px;
@@ -629,6 +625,11 @@ form > h5 {
         width: fit-content;
         padding: 30px;
         border: solid 1px #EAE8ED;
+    }
+
+    /* Gallery */
+    .gallery-container {
+        margin-top: 45px;
     }
 
     /* Join */
