@@ -27,9 +27,23 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     - Upon arrival, users are met with a starry night sky which has been overlayed with a sheen of Lavender Blush. The opening message - written in Montserrat - welcomes them, and a promise of magic - written in Sevillana - greets them just below. A magic wand FA Icon has also been added for aesthetic effect.
 
     ##### Small Version
-    ![Welcome message (large)](assets/images/welcome-message-small.png)
+    ![Welcome message (small)](assets/images/welcome-message-small.png)
     
     ##### Large Version
     ![Welcome message (large)](assets/images/welcome-message-large.png)
 
-    - Scrolling further down the page, 
+    - Scrolling further down the page, the user's attention is captured with the use of bright colouring and bold, capitalised lettering. Contrasting colours have been chosen for emphatic effect.
+
+    ##### Small Version
+    ![Attention Capture (small)](assets/images/attention-capture-small.png)
+
+    ##### Large Version
+    ![Attention Capture (large)](assets/images/attention-capture-large.png)
+
+    - As for the third and final section, a calendar has been created for the purpose of informing users about prospective retreat dates; start dates have been highlighted with familiar section styling (as in the section above) for ease of identification.
+
+    ##### Small Version
+    ![Retreat Dates (small)](assets/images/retreat-dates-small.png)
+
+    ##### Large Version
+    ![Retreat Dates (large)](assets/images/retreat-dates-large.png)
