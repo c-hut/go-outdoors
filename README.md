@@ -17,6 +17,11 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     - It comprises the Logo and links to the Home, Gallery and Registration pages, as well as their accompanying Favicon Icons.
     - On each page, the navigation bar remains visible and fully accessible to users. It has been designed in such a way that its page links are tucked away on small devices and become untucked on large devices.
 
+    #### Large Header
     ![Header screenshot (large)](assets/images/header-large.png)
+
+    #### Small Header
     ![Header screenshot (large)](assets/images/header-small.png)
 
+- Landing Page
+    - 
