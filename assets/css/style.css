@@ -406,7 +406,16 @@ form > h2{
 }
 
 form > h4 {
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+form > h5 {
+    padding: 10px;
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
 }
 
 .text-input {
@@ -418,12 +427,13 @@ form > h4 {
 }
 
 #send-button {
-    margin: 10px;
+    margin: 2% 0 2% 30%;
     border-radius: 2px;
     padding: 15px 30px;
     background-color: #E6DBE5;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 80%;
 }
 
 .checkboxes {
@@ -512,8 +522,13 @@ form > h4 {
     }
 
     #send-button {
-        margin-top: 10px;
+        margin: 2% 0 2% 40%;
         border-radius: 2px;
+        padding: 15px 30px;
+        background-color: #E6DBE5;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        font-size: 80%;
     }
 
     .label {
@@ -535,7 +550,7 @@ form > h4 {
 
     /* Join */
     #registration-form {
-        margin-top: 8%;
+        margin-top: 2.5%;
         margin-left: 30%;
         padding: 10px;
         width: 40%;
@@ -545,18 +560,20 @@ form > h4 {
         width: 30%;
     }
 
+    .label {
+        margin-left: 20px;
+    }
+
+    input[type=checkbox] {
+        width: 15px;
+        height: 15px;
+    }
+
     #send-button {
         margin-top: 10px;
         border-radius: 2px;
     }
 
-    .label {
-        margin-left: 20px;
-    }
-
-    form > h2, h4, {
-        margin-left: 20px;
-    }
 }
 
 /* Media query: large devices (2560px) */
@@ -565,6 +582,7 @@ form > h4 {
         font-size: 250%;
     }
 
+    /* Homepage */
     .intro-text {
         margin-top: 60px;
         padding-top: 60px;
@@ -604,17 +622,22 @@ form > h4 {
 
     /* Join */
     #registration-form {
-        margin-top: 8%;
+        margin-top: 4%;
         margin-left: 30%;
-        padding: 10px;
+        padding: 40px;
         width: 40%;
-        height: 75%;
+        height: 90%;
     }
 
     .text-input {
         width: 30%;
         padding: 10px;
         margin: 20px;
+    }
+
+    input[type=checkbox] {
+        width:30px;
+        height: 30px;
     }
 
     .label {
@@ -624,11 +647,19 @@ form > h4 {
     form > h2, h4 {
         margin-left: 20px;
     }
+    
+    form > h5 {
+        margin: 10px;
+    }
 
     #send-button {
-        margin-top: 10px;
-        margin-left: 30px;
-        font-size: 30px;
+        margin: 0.3% 0 5% 40%;
+        border-radius: 2px;
+        padding: 20px 30px;
+        background-color: #E6DBE5;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        font-size: 80%;
     }
 
 }
