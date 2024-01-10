@@ -12,7 +12,7 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
 
 ### Current Features
 
-- Responsive Navigation Bar (designed using HTML and CSS **only**)
+- Header and Responsive Navigation Bar (designed using HTML and CSS **only**)
     - Its purpose is to enable users to navigate between pages without having to use the back and forward arrow buttons in their browser of choice.
     - It comprises the Logo and links to the Home, Gallery and Registration pages, as well as their accompanying Font Awesome (FA) Icons.
     - On each page, the navigation bar remains visible and fully accessible to users. It has been designed in such a way that its page links are tucked away on small devices and become untucked on large devices.
@@ -47,3 +47,36 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
 
     ##### Large Version
     ![Retreat Dates (large)](assets/images/retreat-dates-large.png)
+
+- Footer
+    - At the bottom of the page, a footer has been placed. It contains links to social media platforms, including Pinterest, Instagram and YouTube, as well as a link which opens each user's chosen email client.
+    - Enabling users to visit social media profiles connected to the website will encourage them to connect and remain in touch.
+    - When users click any of these links, the corresponding social media page will open in a new tab; this will reduce the likelihood that they'll navigate away from the website.
+
+    ##### Small Version
+    ![Footer (small)](assets/images/footer-small.png)
+
+    ##### Large Version
+    ![Footer (large)](assets/images/footer-large.png)
+
+- Gallery
+    - Before users decide to visit the retreat, they can look through the gallery within which photos have been ordered precisely; the purpose of the chosen design and ordering is to attract people with a proposed sequence of events. They can look through the photos, read the accompanying captions and envision their time at the retreat.
+    - Enabling users to view the landscape, accomodation options and some of the activies is valuable in terms of helping them to decide whether it's the right place for them to visit.
+
+    ##### Small Version
+    ![Gallery (small)](assets/images/gallery-small.png)
+
+    ##### Large Version
+    ![Gallery (large)](assets/images/gallery-large.png)
+
+- Registration Form
+    - If users decide they want to visit the retreat based on what they've gathered from the Home page and Gallery, they can navigate to the final page and send their details via the registration form.
+    - Providing users with a means of direct contact via the website enables them to reach out to us internally, thus increasing the likelihood of engagement and improving their overall experience.
+
+    ##### Small Version
+    ![Registration Form (small)](assets/images/form-small.png)
+
+    ##### Large Version
+    ![Registration Form (large)](assets/images/form-large.png)
+
+
