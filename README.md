@@ -119,7 +119,7 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
         ##### Calendar Margin Correction
         ![Calendar Correction [1] Screenshot)](assets/images/calendar-margin-correction.png)
 
-            - **Steps taken**: `font-size` increased and `margin-right` added.
+            Steps taken: `font-size` increased and `margin-right` added.
 
     - Secondly, I noted that the background image of the `month` and `.active` dates was causing a contrast issue with the black text. See screenshots below for issue and correction.
 
@@ -129,7 +129,7 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
         ##### Calendar Contrast Correction
         ![Calendar Correction [2] Screenshot)](assets/images/calendar-contrast-correction.png)
 
-            - **Steps taken**: `font-weight` and `font-size` were increased, as well as alignment of days and dates. Note: creating a calendar using only HTML and CSS was difficult; JavaScript may be incorporated in future to improve alignment and also to enable user interaction.
+            Steps taken: `font-weight` and `font-size` were increased, as well as alignment of days and dates. Note: creating a calendar using only HTML and CSS was difficult; JavaScript may be incorporated in future to improve alignment and also to enable user interaction.
 
     - Thirdly and lastly, the calendar dimensions were checked on larger screen sizes, and a `padding-left` property was added in order to bring the calendar into the centre.
 
@@ -139,9 +139,31 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
         ##### Calendar Alignment Correction
         ![Calendar Correction [3] Screenshot)](assets/images/calendar-alignment-correction.png)
 
-            - **Steps taken**: `.calendar-container` div class selector added to media query; `font-size` and `padding-left` applied. Additionally, `margin-right` property added to `.month` div.
+            Steps taken: `.calendar-container` div class selector added to media query; `font-size` and `padding-left` applied. Additionally, `margin-right` property added to `.month` div.
 
 - ### Gallery and Registration Form
     - All screen sizes - mobile, tablet and laptop - were checked; all elements and their corresponding properties functioned as expected.
 
+## Validator Testing
 
+- ###  HTML
+   - No errors were identified via the official [W3 Validator](https://validator.w3.org/nu)
+
+- ### CSS
+   - A 'Parse Error' was identified during testing via [W3's Jigsaw Validator](https://jigsaw.w3.org/css-validator), but when I checked the code, I couldn't find any viable errors. The line (688) on which the error was identified contains a closing curly bracket for a media query; there were no corrections to be made.
+
+- ### Unfixed Bugs
+    - As far as I was able to observe, there were no outstanding bugs to be fixed.
+
+## Deployment
+
+Go Outdoors was deployed to GitHub pages using the following steps:
+
+1. Navigate to the Go Outdoors repository on Github
+2. Click **Settings** (last button on the header, directly above the repo)
+3. On the left-hand side, find **Pages** (directly below **Codespaces**)
+4. Find **Source** under **Build and deployment**; click the dropdown menu; and select **Deploy from a branch**
+5. Find **Branch**; click the dropdown menu; select **main**; and set the folder to **root**.
+6. As per the succeeding instructions, wait and then refresh the repository. If all steps have been followed correctly, there should be a box that says: "your site is live at https://username.github.io/site-name/".
+
+After following these steps, I was deployed my website. It can be viewed [here](Your site is live at https://c-hut.github.io/go-outdoors).
