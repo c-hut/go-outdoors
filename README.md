@@ -102,7 +102,8 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
 
 ## Testing
 
-### Home Page
+- ### Home Page
+
     #### [Section One]
     - Beginning at the top of the page - in mobile, tablet and laptop views - I checked the header functionalities, including the drop-down list and the links. I then checked the background image, margins surrounding the introductory text, the space between the headings, and the font-sizes. Everything appeared to be in order.
 
@@ -110,7 +111,7 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
     - Moving down the page, I checked the headings, text and background images. For a moment, I considered whether the sizing was disproportional, but as the point of this section is to capture the attention of users, I decided it was fit for purpose. No other issues were observed.
 
     #### [Section Three]
-    - Firstly, just after the midsection, I checked the calendar properties and identified two issues. Firstly, some of the margins around the days and dates were too small. See screenshots below for issue and correction.
+    - Just after the midsection, I checked the calendar properties and identified two issues. Firstly, some of the margins around the days and dates were too small. See screenshots below for issue and correction.
 
         ##### Calendar Margin Issue
         ![Calendar Issue [1] Screenshot)](assets/images/calendar-margin-issue.png)
@@ -140,7 +141,7 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
 
             - **Steps taken**: `.calendar-container` div class selector added to media query; `font-size` and `padding-left` applied. Additionally, `margin-right` property added to `.month` div.
 
-### Gallery and Registration Form
+- ### Gallery and Registration Form
     - All screen sizes - mobile, tablet and laptop - were checked; all elements and their corresponding properties functioned as expected.
 
 
