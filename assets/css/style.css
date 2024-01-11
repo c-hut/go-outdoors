@@ -153,7 +153,7 @@ nav {
     color: #041120;
     text-shadow: #c1b7cc -2px 0 5px;
     text-align: center;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .intro-text>h3 {
@@ -161,7 +161,7 @@ nav {
     color: #041120;
     text-shadow: #c0c0c0 -2px 0 5px;
     font-family: "Sevillana", sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     text-align: center;
     padding: 10px;
 }
@@ -217,7 +217,7 @@ nav {
     text-shadow: #c1b7cc -2px 0 5px;
     text-align: center;
     font-size: 63%;
-    font-weight: 900px;
+    font-weight: 900;
     padding: 10px;
 }
 /* Section 3 End */
@@ -282,7 +282,7 @@ nav {
     background: no-repeat center center/cover url("../images/nechama-lock-dhYpO4DVEcc-unsplash.webp");
     color: #041120;
     border: solid #c1b7cc;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     text-shadow: #010001 -2px 0 10px;
     margin-right: 5px;
@@ -293,7 +293,7 @@ nav {
     background: no-repeat center center/cover url("../images/nechama-lock-dhYpO4DVEcc-unsplash.webp");
     color: #041120;
     border: solid #c1b7cc;
-    font-weight: 700px;
+    font-weight: 700;
     text-shadow: #041120 -2px 0 10px;
 }
 
@@ -475,7 +475,7 @@ form > h5 {
     }
 
     .dates-text {
-        font-size: 7 0%;
+        font-size: 70%;
     }
 
     .content-outline {
