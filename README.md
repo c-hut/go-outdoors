@@ -4,6 +4,14 @@ Go Outdoors isn't just any retreat. It's a place where people from all backgroun
 
 ![Website screenshots](assets/images/website-screenshot.png)
 
+## User Stories
+
+- *As a novice*, I'm looking to immerse myself in the world of spirituality. Since it's a new field of interest for me, I want to feel a sense of mystery and intrigue, and I want to see photos of other people's experiences.
+
+- *As an experienced spiritualist*, I'm looking for a unique experience. I'm not keen on websites that require me to read a lot, so I want to be presented with concise information and options to find out more.
+
+- *As an organiser*, I want to take my group to a place where they'll have opportunities to develop as individuals and as a team. Having a discussion over the phone is important to me, so I'd like to be able to arrange a callback.
+
 ## Features
 
 For anyone who seeks deeper meaning in their life, this website will serve as a stepping stone in their pursuit. It has been designed with simplicity, ease of navigation, and aesthetics in mind. Those who would like to use it can find key information on the first page, imagery of the retreat on the second page, and a registration form on the third and final page. 
@@ -228,3 +236,7 @@ After following these steps, I deployed my website. It can be viewed [here](Your
 - [Cloud Convert](https://cloudconvert.com) was used for image conversion (png and jpg to webp).
 
 - [CSS Gradient](https://cssgradient.io) was used for header and footer styling.
+
+- [Markdown Guide](https://www.markdownguide.org/cheat-sheet) was used for writing the README.md file.
+
+- [Am I Responsive?](https://ui.dev/amiresponsive) was used for the opening screenshot.
