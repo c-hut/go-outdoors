@@ -178,9 +178,9 @@ After following these steps, I deployed my website. It can be viewed [here](Your
 ### Code Inspiration and Support
 
 - Code Institute's navigation bar
-    ![Navigation Bar Screenshot](assets/images/code-institute-nav-bar.png)
+![Navigation Bar Screenshot](assets/images/code-institute-nav-bar.png)
 
-    *~ featured in the Love Running project*
+*~ featured in the Love Running project*
 
 - Code Institute's form styling (code adapted - not directly copied)
 
@@ -211,12 +211,15 @@ After following these steps, I deployed my website. It can be viewed [here](Your
 - [Google Fonts](https://fonts.google.com) was used to generate font styles.
 
     - Montserrat
+
     ![Montserrat Font Style](assets/images/montserrat-font.png)
 
     - Sevillana
+
     ![Sevillana Font Style](assets/images/sevillana-font.png)
 
     - Bebas Neue
+    
     ![Bebas Neue](assets/images/bebas-neue-font.png)
 
 - [iLoveIMG](https://www.iloveimg.com) was used for image resizing.
