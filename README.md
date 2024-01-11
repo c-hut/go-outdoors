@@ -94,53 +94,53 @@ First and foremost, I think it's important to note that CSS can be very tricky -
 
 ### Navigation Bar Nightmare
 
-Designing a responsive navigation bar without the use of Javascript proved difficult - even with Code Institute's tutorial. In the beginning, I wanted to find my own solution but decided against it due to my own lack of experience. I attempted to follow this [tutorial](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) and couldn't adapt it to my needs, so I abandoned it and reverted to what I knew. In the end, I was able to add the expected functionalities and styled it in accordance with my design preferences.
+Designing a responsive navigation bar without the use of Javascript proved difficult - even with Code Institute's [tutorial](https://www.youtube.com/watch?v=g6Kr1srawjc&t=505s&ab_channel=MediaUpload). In the beginning, I wanted to find my own solution but decided against it due to my own lack of experience. I attempted to follow this [tutorial](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) and couldn't adapt it to my needs, so I abandoned it and reverted to what I knew. In the end, I was able to add the expected functionalities and styled it in accordance with my design preferences.
 
 ### Flying Footer
 
-At one point, I thought a sticky footer would be a good idea; I wanted it to remain visible on the screen at all times. I encountered issues whenever I defined its position. when I set it to `sticky`, it had absolutely no effect; when I set its propety to `absolute`, it reduced to a quarter of its specified width; and when I set it to `fixed`, it disappeared entirely. In the end, I set `margin-top` to `auto` and settled on a footer that finally stayed put.
+At one point, I thought a sticky footer would be a good idea; I wanted it to remain visible on the screen at all times. I encountered issues whenever I defined its position. When I set it to `sticky`, it had absolutely no effect; when I set its propety to `absolute`, it reduced to a quarter of its specified width; and when I set it to `fixed`, it disappeared entirely. In the end, I set `margin-top` to `auto` and settled on a footer that finally stayed put.
 
 ## Testing
 
-- Home Page
-    ### [Section One]
+### Home Page
+    #### [Section One]
     - Beginning at the top of the page - in mobile, tablet and laptop views - I checked the header functionalities, including the drop-down list and the links. I then checked the background image, margins surrounding the introductory text, the space between the headings, and the font-sizes. Everything appeared to be in order.
 
-    ### [Section Two]
+    #### [Section Two]
     - Moving down the page, I checked the headings, text and background images. For a moment, I considered whether the sizing was disproportional, but as the point of this section is to capture the attention of users, I decided it was fit for purpose. No other issues were observed.
 
-    ### [Section Three]
-    - Just after the midsection, I checked the calendar properties and identified two issues. Firstly, some of the margins around the days and dates were too small. See screenshots below for issue and correction.
+    #### [Section Three]
+    - Firstly, just after the midsection, I checked the calendar properties and identified two issues. Firstly, some of the margins around the days and dates were too small. See screenshots below for issue and correction.
 
-        #### Calendar Margin Issue
+        ##### Calendar Margin Issue
         ![Calendar Issue [1] Screenshot)](assets/images/calendar-margin-issue.png)
 
-        #### Calendar Margin Correction
+        ##### Calendar Margin Correction
         ![Calendar Correction [1] Screenshot)](assets/images/calendar-margin-correction.png)
 
             - **Steps taken**: `font-size` increased and `margin-right` added.
 
     - Secondly, I noted that the background image of the `month` and `.active` dates was causing a contrast issue with the black text. See screenshots below for issue and correction.
 
-        #### Calendar Contrast Issue
+        ##### Calendar Contrast Issue
         ![Calendar Issue [2] Screenshot)](assets/images/calendar-contrast-issue.png)
 
-        #### Calendar Contrast Correction
+        ##### Calendar Contrast Correction
         ![Calendar Correction [2] Screenshot)](assets/images/calendar-contrast-correction.png)
 
             - **Steps taken**: `font-weight` and `font-size` were increased, as well as alignment of days and dates. Note: creating a calendar using only HTML and CSS was difficult; JavaScript may be incorporated in future to improve alignment and also to enable user interaction.
 
     - Thirdly and lastly, the calendar dimensions were checked on larger screen sizes, and a `padding-left` property was added in order to bring the calendar into the centre.
 
-        #### Calendar Alignment Issue
+        ##### Calendar Alignment Issue
         ![Calendar Issue [3] Screenshot)](assets/images/calendar-alignment-issue.png)
 
-        #### Calendar Alignment Correction
+        ##### Calendar Alignment Correction
         ![Calendar Correction [3] Screenshot)](assets/images/calendar-alignment-correction.png)
 
             - **Steps taken**: `.calendar-container` div class selector added to media query; `font-size` and `padding-left` applied. Additionally, `margin-right` property added to `.month` div.
 
-- Gallery and Registration Form
-    - All screen - mobile, tablet and laptop - sizes checked; all elements and their corresponding properties functioned as expected.
+### Gallery and Registration Form
+    - All screen sizes - mobile, tablet and laptop - were checked; all elements and their corresponding properties functioned as expected.
 
 
