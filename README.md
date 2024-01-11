@@ -17,35 +17,35 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     - It comprises the Logo and links to the Home, Gallery and Registration pages, as well as their accompanying Font Awesome (FA) Icons.
     - On each page, the navigation bar remains visible and fully accessible to users. It has been designed in such a way that its page links are tucked away on small devices and become untucked on large devices.
 
-    ##### Small Header
+    #### Small Header
     ![Header screenshot (large)](assets/images/header-small.png)
     
-    ##### Large Header
+    #### Large Header
     ![Header screenshot (large)](assets/images/header-large.png)
 
 - Landing Page
     - Upon arrival, users are met with a starry night sky which has been overlayed with a sheen of Lavender Blush. The opening message - written in Montserrat - welcomes them, and a promise of magic - written in Sevillana - greets them just below. A magic wand FA Icon has also been added for aesthetic effect.
 
-    ##### Small Version
+    #### Small Version
     ![Welcome message (small)](assets/images/welcome-message-small.png)
     
-    ##### Large Version
+    #### Large Version
     ![Welcome message (large)](assets/images/welcome-message-large.png)
 
     - Scrolling further down the page, the user's attention is captured with the use of bright colouring and bold, capitalised lettering. Contrasting colours have been chosen for emphatic effect.
 
-    ##### Small Version
+    #### Small Version
     ![Attention Capture (small)](assets/images/attention-capture-small.png)
 
-    ##### Large Version
+    #### Large Version
     ![Attention Capture (large)](assets/images/attention-capture-large.png)
 
     - As for the third and final section, a calendar has been created for the purpose of informing users about prospective retreat dates; start dates have been highlighted with familiar section styling (as in the section above) for ease of identification.
 
-    ##### Small Version
+    #### Small Version
     ![Retreat Dates (small)](assets/images/retreat-dates-small.png)
 
-    ##### Large Version
+    #### Large Version
     ![Retreat Dates (large)](assets/images/retreat-dates-large.png)
 
 - Footer
@@ -53,30 +53,30 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
     - Enabling users to visit social media profiles connected to the website will encourage them to connect and remain in touch.
     - When users click any of these links, the corresponding social media page will open in a new tab; this will reduce the likelihood that they'll navigate away from the website.
 
-    ##### Small Version
+    #### Small Version
     ![Footer (small)](assets/images/footer-small.png)
 
-    ##### Large Version
+    #### Large Version
     ![Footer (large)](assets/images/footer-large.png)
 
 - Gallery
     - Before users decide to visit the retreat, they can look through the gallery within which photos have been ordered precisely; the purpose of the chosen design and ordering is to attract people with a proposed sequence of events. They can look through the photos, read the accompanying captions and envision their time at the retreat.
     - Enabling users to view the landscape, accomodation options and some of the activies is valuable in terms of helping them to decide whether it's the right place for them to visit.
 
-    ##### Small Version
+    #### Small Version
     ![Gallery (small)](assets/images/gallery-small.png)
 
-    ##### Large Version
+    #### Large Version
     ![Gallery (large)](assets/images/gallery-large.png)
 
 - Registration Form
     - If users decide they want to visit the retreat based on what they've gathered from the Home page and Gallery, they can navigate to the final page and send their details via the registration form.
     - Providing users with a means of direct contact via the website enables them to reach out to us internally, thus increasing the likelihood of engagement and improving their overall experience.
 
-    ##### Small Version
+    #### Small Version
     ![Registration Form (small)](assets/images/form-small.png)
 
-    ##### Large Version
+    #### Large Version
     ![Registration Form (large)](assets/images/form-large.png)
 
 ### Prospective Features (TBD)
@@ -84,7 +84,7 @@ N.B. The first page has been designed to intrigue its visitors, thus detailed in
 - A virtual walkthrough of the retreat. Users will be able to look around the retreat from the perspective of somebody who is there in person.
 - A personality questionnaire. Users can optionally answer a series of questions in order to better understand them as individuals prior to engaging with them via their elected form of contact.
 
-## Development
+## Development Challenges
 
 During development, a series of unfamiliar and often unexpected behaviours were observed. From flexbox positioning issues to a complete absence of navigation bar responsiveness to a footer that just wouldn't stay down, a solution was found for each and every problem.
 
@@ -102,6 +102,45 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
 
 ## Testing
 
+- Home Page
+    ### [Section One]
+    - Beginning at the top of the page - in mobile, tablet and laptop views - I checked the header functionalities, including the drop-down list and the links. I then checked the background image, margins surrounding the introductory text, the space between the headings, and the font-sizes. Everything appeared to be in order.
 
+    ### [Section Two]
+    - Moving down the page, I checked the headings, text and background images. For a moment, I considered whether the sizing was disproportional, but as the point of this section is to capture the attention of users, I decided it was fit for purpose. No other issues were observed.
+
+    ### [Section Three]
+    - Just after the midsection, I checked the calendar properties and identified two issues. Firstly, some of the margins around the days and dates were too small. See screenshots below for issue and correction.
+
+        #### Calendar Margin Issue
+        ![Calendar Issue [1] Screenshot)](assets/images/calendar-margin-issue.png)
+
+        #### Calendar Margin Correction
+        ![Calendar Correction [1] Screenshot)](assets/images/calendar-margin-correction.png)
+
+            - **Steps taken**: `font-size` increased and `margin-right` added.
+
+    - Secondly, I noted that the background image of the `month` and `.active` dates was causing a contrast issue with the black text. See screenshots below for issue and correction.
+
+        #### Calendar Contrast Issue
+        ![Calendar Issue [2] Screenshot)](assets/images/calendar-contrast-issue.png)
+
+        #### Calendar Contrast Correction
+        ![Calendar Correction [2] Screenshot)](assets/images/calendar-contrast-correction.png)
+
+            - **Steps taken**: `font-weight` and `font-size` were increased, as well as alignment of days and dates. Note: creating a calendar using only HTML and CSS was difficult; JavaScript may be incorporated in future to improve alignment and also to enable user interaction.
+
+    - Thirdly and lastly, the calendar dimensions were checked on larger screen sizes, and a `padding-left` property was added in order to bring the calendar into the centre.
+
+        #### Calendar Alignment Issue
+        ![Calendar Issue [3] Screenshot)](assets/images/calendar-alignment-issue.png)
+
+        #### Calendar Alignment Correction
+        ![Calendar Correction [3] Screenshot)](assets/images/calendar-alignment-correction.png)
+
+            - **Steps taken**: `.calendar-container` div class selector added to media query; `font-size` and `padding-left` applied. Additionally, `margin-right` property added to `.month` div.
+
+- Gallery and Registration Form
+    - All screen - mobile, tablet and laptop - sizes checked; all elements and their corresponding properties functioned as expected.
 
 
