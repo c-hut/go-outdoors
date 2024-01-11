@@ -1,12 +1,12 @@
 # Go Outdoors
 
-Go Outdoors isn't just any retreat. It's a place where people from all backgrounds can come together, connect with one another, and find peace within themselves. In an increasingly digital world, we rarely have time to slow down and disconnect from our devices. What's more, we're often moving at such a fast pace that we neglect to show our gratitude for each new day. Happy or sad, we must give thanks to the universe. When we do, our gratitude is reflected back at us and our lives are touched by magic.
+Go Outdoors isn't just any retreat. It's a place where people from all backgrounds can come together, connect with one another, and find peace within themselves. In an increasingly digital world, we rarely have time to slow down and disconnect from our devices. What's more, we're often moving at such a fast pace that we neglect to show gratitude for each coming day. Happy or sad, we must give thanks to the universe. When we do, our gratitude is reflected back at us and our lives are blessed by magic.
 
 ![Website screenshots](assets/images/website-screenshot.png)
 
 ## Features
 
-For anyone who seeks deeper meaning in their life, this website will serve as a stepping stone in their pursuit. It has been designed with simplicity, ease of navigation, and aesthetics in mind. Anyone who would like to use it can find key information on the first page, imagery of the retreat on the second page, and a registration form on the third and final page. 
+For anyone who seeks deeper meaning in their life, this website will serve as a stepping stone in their pursuit. It has been designed with simplicity, ease of navigation, and aesthetics in mind. Those who would like to use it can find key information on the first page, imagery of the retreat on the second page, and a registration form on the third and final page. 
 
 N.B. The first page has been designed to intrigue its visitors, thus detailed information about the retreat has not been included. All interested parties will receive a comprehensive overview upon receipt of their registration form.
 
@@ -129,7 +129,7 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
         ##### Calendar Contrast Correction
         ![Calendar Correction [2] Screenshot)](assets/images/calendar-contrast-correction.png)
 
-            Steps taken: `font-weight` and `font-size` were increased, as well as alignment of days and dates. Note: creating a calendar using only HTML and CSS was difficult; JavaScript may be incorporated in future to improve alignment and also to enable user interaction.
+            Steps taken: `font-weight` and `font-size` were increased, as well as alignment of days and dates, changes in the colour, and removal of the background image for highlighted dates. Note: creating a calendar using only HTML and CSS was difficult; JavaScript may be incorporated in future to improve alignment and also to enable user interaction.
 
     - Thirdly and lastly, the calendar dimensions were checked on larger screen sizes, and a `padding-left` property was added in order to bring the calendar into the centre.
 
@@ -166,4 +166,61 @@ Go Outdoors was deployed to GitHub pages using the following steps:
 5. Find **Branch**; click the dropdown menu; select **main**; and set the folder to **root**.
 6. As per the succeeding instructions, wait and then refresh the repository. If all steps have been followed correctly, there should be a box that says: "your site is live at https://username.github.io/site-name/".
 
-After following these steps, I was deployed my website. It can be viewed [here](Your site is live at https://c-hut.github.io/go-outdoors).
+After following these steps, I deployed my website. It can be viewed [here](Your site is live at https://c-hut.github.io/go-outdoors).
+
+## Credits
+
+### Acknowledgements
+- I would like to thank my personal mentor: Spencer Barriball. From the outset, he was exceptionally kind and knowledgable. Whenever I experienced an issue, he endeavoured to aid me in finding a timely resolution. He's a credit to his profession.
+
+- I would also like to thank Code Institute for its unique teaching style. I can say with certainty that I'd never encountered such engaging course content previously, and I'm grateful to have had an opportunity to benefit from it.
+
+### Code Inspiration and Support
+
+- Code Institute's navigation bar
+    ![Navigation Bar Screenshot](assets/images/code-institute-nav-bar.png)
+
+    *~ featured in the Love Running project*
+
+- Code Institute's form styling (code adapted - not directly copied)
+
+   *~ featured in the Love Running project*
+
+- Calendar inspired by W3Schools [article](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_calendar) and Reintech [article](https://reintech.io/blog/creating-a-responsive-calendar-with-css)
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) was used to fill knowledge gaps.
+
+    - **Key topics**: flexbox, flex properties, padding, margin, and positioning.
+
+- [Stack Overflow](https://stackoverflow.com) was also used to fill knowledge gaps.
+
+    - **Key topics**: media queries, form input types, image properties, and selectors.
+
+### Media
+
+- [Favicon.io](https://favicon.io/emoji-favicons/evergreen-tree) was used to select the Favicon icon for the browser tab.
+
+    ![Favicon Icon - Evergreen Tree](assets/images/favicon-image.png)
+
+- [Coolers](https://coolors.co) was used to generate a colour palette.
+
+    ![Colour Palette](assets/images/colour-palette.png)
+
+- [Font Awesome](https://fontawesome.com) was used to select header and menu icons.
+
+- [Google Fonts](https://fonts.google.com) was used to generate font styles.
+
+    - Montserrat
+    ![Montserrat Font Style](assets/images/montserrat-font.png)
+
+    - Sevillana
+    ![Sevillana Font Style](assets/images/sevillana-font.png)
+
+    - Bebas Neue
+    ![Bebas Neue](assets/images/bebas-neue-font.png)
+
+- [iLoveIMG](https://www.iloveimg.com) was used for image resizing.
+
+- [Cloud Convert](https://cloudconvert.com) was used for image conversion (png and jpg to webp).
+
+- [CSS Gradient](https://cssgradient.io) was used for header and footer styling.
