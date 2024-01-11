@@ -181,11 +181,11 @@ After following these steps, I deployed my website. It can be viewed [here](Your
 
 ![Navigation Bar Screenshot](assets/images/code-institute-nav-bar.png)
 
-*~ featured in the Love Running project*
+    ~ featured in the Love Running project
 
 - Code Institute's form styling (code adapted - not directly copied)
 
-   *~ featured in the Love Running project*
+    ~ featured in the Love Running project
 
 - Calendar inspired by W3Schools [article](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_calendar) and Reintech [article](https://reintech.io/blog/creating-a-responsive-calendar-with-css)
 
