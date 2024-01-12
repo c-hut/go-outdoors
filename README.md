@@ -231,6 +231,8 @@ After following these steps, I deployed my website. It can be viewed [here](http
 
     ![Sevillana Font Style](assets/images/sevillana-font.png)
 
+- [Unsplash](https://unsplash.com/) was used to find suitable photos.
+
 - [iLoveIMG](https://www.iloveimg.com) was used for image resizing.
 
 - [Cloud Convert](https://cloudconvert.com) was used for image conversion (png and jpg to webp).
