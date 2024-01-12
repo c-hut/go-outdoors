@@ -6,11 +6,11 @@ Go Outdoors isn't just any retreat. It's a place where people from all backgroun
 
 ## User Stories
 
-- *As a novice*, I'm looking to immerse myself in the world of spirituality. Since it's a new field of interest for me, I want to feel a sense of mystery and intrigue, and I want to see photos of other people's experiences.
+- **As a novice**, I'm looking to immerse myself in the world of spirituality. Since it's a new field of interest for me, I want to feel a sense of mystery and intrigue, and I want to see photos of other people's experiences.
 
-- *As an experienced spiritualist*, I'm looking for a unique experience. I'm not keen on websites that require me to read a lot, so I want to be presented with concise information and options to find out more.
+- **As an experienced spiritualist**, I'm looking for a unique experience. I'm not keen on websites that require me to read a lot, so I want to be presented with concise information and options to find out more.
 
-- *As an organiser*, I want to take my group to a place where they'll have opportunities to develop as individuals and as a team. Having a discussion over the phone is important to me, so I'd like to be able to arrange a callback.
+- **As an organiser**, I want to take my group to a place where they'll have opportunities to develop as individuals and as a team. Having a discussion over the phone is important to me, so I'd like to be able to arrange a callback.
 
 ## Features
 
@@ -239,4 +239,4 @@ After following these steps, I deployed my website. It can be viewed [here](Your
 
 - [Markdown Guide](https://www.markdownguide.org/cheat-sheet) was used for writing the README.md file.
 
-- [Am I Responsive?](https://ui.dev/amiresponsive) was used for the opening screenshot.
+- [Am I Responsive?](https://ui.dev/amiresponsive) was used to generate the opening screenshot.
