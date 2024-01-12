@@ -502,7 +502,7 @@ form > h5 {
 
     /* Join */
     #form-container {
-        padding: 60px 10px 525px;
+        padding: 100px 10px 500px;
     }
     
     #registration-form {
@@ -543,13 +543,17 @@ form > h5 {
     }
 
     /* Calendar */
+    .calendar-container {
+        padding-left: 195px;
+    }
+
     .day,
     .date {
         padding: 5px;
     }
 
-    .calendar-container {
-        padding-left: 195px;
+    .month {
+        margin-right: 150px;
     }
 
 
@@ -588,7 +592,7 @@ form > h5 {
 /* Media query: large devices (2560px) */
 @media only screen and (width: 2560px) {
     body {
-        font-size: 250%;
+        font-size: 228%;
     }
 
     /* Home page */
@@ -623,7 +627,6 @@ form > h5 {
     }
 
     /* Calendar */
-
     .calendar-container {
         font-size: 110%;
         padding: 40px;
@@ -643,7 +646,7 @@ form > h5 {
 
     /* Join */
     #form-container {
-        padding: 60px 10px 0px;
+        padding: 80px 10px 20px;
     }
     
     #registration-form {
