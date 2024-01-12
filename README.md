@@ -174,7 +174,7 @@ Go Outdoors was deployed to GitHub pages using the following steps:
 5. Find **Branch**; click the dropdown menu; select **main**; and set the folder to **root**
 6. As per the succeeding instructions, wait and then refresh the repository. If all steps have been followed correctly, there should be a box that says: "your site is live at https://username.github.io/site-name/"
 
-After following these steps, I deployed my website. It can be viewed [here](Your site is live at https://c-hut.github.io/go-outdoors).
+After following these steps, I deployed my website. It can be viewed [here](https://c-hut.github.io/go-outdoors).
 
 ## Credits
 
