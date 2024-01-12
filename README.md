@@ -8,15 +8,13 @@ Go Outdoors isn't just any retreat. It's a place where people from all backgroun
 
 - **As a novice**, I'm looking to immerse myself in the world of spirituality. Since it's a new field of interest for me, I want to feel a sense of mystery and intrigue, and I want to see photos of other people's experiences.
 
-- **As an experienced spiritualist**, I'm looking for a unique experience. I'm not keen on websites that require me to read a lot, so I want to be presented with concise information and options to find out more.
+- **As a seasoned spiritualist**, I'm looking for a unique experience. I'm not keen on websites that require me to read a lot, so I want to be presented with concise information and options to find out more.
 
 - **As an organiser**, I want to take my group to a place where they'll have opportunities to develop as individuals and as a team. Having a discussion over the phone is important to me, so I'd like to be able to arrange a callback.
 
 ## Features
 
-For anyone who seeks deeper meaning in their life, this website will serve as a stepping stone in their pursuit. It has been designed with simplicity, ease of navigation, and aesthetics in mind. Those who would like to use it can find key information on the first page, imagery of the retreat on the second page, and a registration form on the third and final page. 
-
-N.B. The first page has been designed to intrigue its visitors, thus detailed information about the retreat has not been included. All interested parties will receive a comprehensive overview upon receipt of their registration form.
+For anyone who seeks deeper meaning in their life, this website will serve as a stepping stone in their pursuit. It has been designed with simplicity, ease of navigation, and aesthetics in mind. Those who would like to use it can find key information on the first page, imagery of the retreat on the second page, and a registration form on the third and final page.
 
 ### Current Features
 
@@ -100,13 +98,15 @@ During development, a series of unfamiliar and often unexpected behaviours were 
 
 First and foremost, I think it's important to note that CSS can be very tricky - especially for novices. Flexbox, in particular, was very challenging. It's fairly straight-forward on its own, but the nature of its impact on surrounding elements alluded me initially. Over time, however, I began to understand the relationships between elements and their counterparts, and I was able to address the issues I'd been facing. For example, I learned when it was appropriate to apply flexbox properties and was eventually able to identify when they were redundant.
 
-### Navigation Bar Nightmare
+### Nav Bar Nightmare
 
 Designing a responsive navigation bar without the use of Javascript proved difficult - even with Code Institute's [tutorial](https://www.youtube.com/watch?v=g6Kr1srawjc&t=505s&ab_channel=MediaUpload). In the beginning, I wanted to find my own solution but decided against it due to my own lack of experience. I attempted to follow this [tutorial](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) and couldn't adapt it to my needs, so I abandoned it and reverted to what I knew. In the end, I was able to add the expected functionalities and styled it in accordance with my design preferences.
 
 ### Flying Footer
 
-At one point, I thought a sticky footer would be a good idea; I wanted it to remain visible on the screen at all times. I encountered issues whenever I defined its position. When I set it to `sticky`, it had absolutely no effect; when I set its propety to `absolute`, it reduced to a quarter of its specified width; and when I set it to `fixed`, it disappeared entirely. In the end, I set `margin-top` to `auto` and settled on a footer that finally stayed put.
+At one point, I thought a sticky footer would be a good idea; I wanted it to remain visible on the screen at all times. Frustratingly, I encountered issues whenever I defined its position. When I set it to `sticky`, it had absolutely no effect; when I set its propety to `absolute`, it reduced to a quarter of its specified width; and when I set it to `fixed`, it disappeared entirely. In the end, I set `margin-top` to `auto` and settled on a footer that finally stayed put.
+
+As difficult as it was to overcome these challenges, I understood that they were an integral part of the learning process and embraced them wholeheartedly.
 
 ## Testing
 
@@ -167,12 +167,12 @@ At one point, I thought a sticky footer would be a good idea; I wanted it to rem
 
 Go Outdoors was deployed to GitHub pages using the following steps:
 
-1. Navigate to the Go Outdoors repository on Github
+1. Navigate to the **Go Outdoors** [repository](https://github.com/c-hut/go-outdoors/tree/main) on Github
 2. Click **Settings** (last button on the header, directly above the repo)
 3. On the left-hand side, find **Pages** (directly below **Codespaces**)
 4. Find **Source** under **Build and deployment**; click the dropdown menu; and select **Deploy from a branch**
-5. Find **Branch**; click the dropdown menu; select **main**; and set the folder to **root**.
-6. As per the succeeding instructions, wait and then refresh the repository. If all steps have been followed correctly, there should be a box that says: "your site is live at https://username.github.io/site-name/".
+5. Find **Branch**; click the dropdown menu; select **main**; and set the folder to **root**
+6. As per the succeeding instructions, wait and then refresh the repository. If all steps have been followed correctly, there should be a box that says: "your site is live at https://username.github.io/site-name/"
 
 After following these steps, I deployed my website. It can be viewed [here](Your site is live at https://c-hut.github.io/go-outdoors).
 
